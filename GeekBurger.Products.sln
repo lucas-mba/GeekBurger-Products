@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30320.27
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.Products", "GeekBurger.Products\GeekBurger.Products.csproj", "{044D956B-0070-4FF2-8034-90050D74E646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekBurger.Products", "GeekBurger.Products\GeekBurger.Products.csproj", "{044D956B-0070-4FF2-8034-90050D74E646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.Products.Contract", "GeekBurger.Products.Contract\GeekBurger.Products.Contract.csproj", "{B901C50C-8656-4198-B8ED-D2E20DBE2907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekBurger.Products.Contract", "GeekBurger.Products.Contract\GeekBurger.Products.Contract.csproj", "{B901C50C-8656-4198-B8ED-D2E20DBE2907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.Products.UnitTests", "GeekBurger.Products.UnitTests\GeekBurger.Products.UnitTests.csproj", "{55A334DD-15FB-450F-8FDA-CC5FCB209789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B901C50C-8656-4198-B8ED-D2E20DBE2907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B901C50C-8656-4198-B8ED-D2E20DBE2907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B901C50C-8656-4198-B8ED-D2E20DBE2907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A334DD-15FB-450F-8FDA-CC5FCB209789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A334DD-15FB-450F-8FDA-CC5FCB209789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A334DD-15FB-450F-8FDA-CC5FCB209789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A334DD-15FB-450F-8FDA-CC5FCB209789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
