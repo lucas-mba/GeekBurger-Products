@@ -27,7 +27,7 @@ jobs:
       run: dotnet publish --no-restore -o ./out /p:Version=2.0.${{ github.run_number }}
     - uses: actions/upload-artifact@v3
       with:
-        name: ${{ github.repository.name }}
+        name: ${{ github.event.repository.name }}
         path: ./out
     - name: Pack
       run: dotnet pack --no-restore -o ./nupkgs /p:Version=2.0.${{ github.run_number }}  
