@@ -50,7 +50,7 @@ namespace GeekBurger.Products
             services.AddScoped<IProductChangedEventRepository, ProductChangedEventRepository>();
             services.AddScoped<IStoreRepository, StoreRepository>();
             services.AddScoped<IProductChangedService, ProductChangedService>();
-
+            services.AddHostedService<ProductsService>();
             services.AddScoped<ILogService, LogService>();
         }
 
